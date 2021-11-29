@@ -1,0 +1,16 @@
+# filename: config.toml
+
+# Configurations to enable sending emails
+# Leave empty if you don't want to use emails
+[emailconfig]
+identity =  "" #Usually identity should be the empty string, to act as username.
+username = "" #email username
+password = ""
+host = ""
+port = "587"
+address = "smtp.zoho.com:587" # must be host name and port combined
+# Add "fromemail" if different from "username"
+#Leave empty to default to username
+# Most email providers will only allow email name aliases.
+fromemail = "" #should be same as username, or alias of email username if provided.
+
